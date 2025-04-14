@@ -9,6 +9,6 @@ function total() {
  grocery3 = parseFloat(document.getElementById('grocery3').value);
  grocery4 = parseFloat(document.getElementById('grocery4').value);
 
- let TOTAL = grocery1 + grocery2 + grocery3 + grocery4;
-  document.getElementById('TOTAL').innerText = `La cuenta total es: ${TOTAL}`;
+ let total = grocery1 + grocery2 + grocery3 + grocery4;
+  document.getElementById('resultado').innerText = `La cuenta total es: ${total}`;
 }
